@@ -1,0 +1,30 @@
+.Nnavbar {
+  max-width: 100%;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+}
+
+@media screen and (max-width: 400px) {
+  .Nnavbar {
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  ul li {
+    margin-top: 4px;
+  }
+}
