@@ -1,16 +1,14 @@
 import "./Navbar.css";
-
 function Nnavbar() {
+  const showNav = () => {
+    document.getElementById("Munue").style.display = "none";
+  };
   return (
-    <div className="Nnavbar">
-      <div></div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work experience</li>
-        <li>My Projects</li>
-      </ul>
-      {/* <div>Resume</div> */}
+    <div className="main">
+      <div className="icon">
+        <button>click_me</button>
+      </div>
+     
     </div>
   );
 }
