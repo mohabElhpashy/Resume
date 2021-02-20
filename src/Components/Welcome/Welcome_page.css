@@ -6,7 +6,10 @@
   background-size: 1088px;
   margin-left: 261px;
 }
-span {
-  color: #fff;
-  background: #228896;
+@media (max-width: 400px) {
+  .Welcome {
+    width: 400px;
+    background-size: 400px;
+    margin-left: 0px;
+  }
 }

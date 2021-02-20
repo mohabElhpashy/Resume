@@ -49,3 +49,15 @@ ul li.active a {
   text-decoration: underline;
   text-decoration-color: #337ab7;
 }
+
+.threelines {
+  display: block;
+  margin-left: 20px;
+  z-index: 1;
+  position: absolute;
+}
+@media (max-width: 400px) {
+  .main {
+    display: none;
+  }
+}
