@@ -21,6 +21,7 @@
 }
 .div_content div {
   margin-left: 300px;
+  animation: example 10s infinite ease-in-out;
 }
 .div_content div h1 {
   /* color: #2193b0; */
@@ -33,5 +34,13 @@
 @media (max-width: 900px) {
   .div_content div {
     margin-left: 0px;
+  }
+}
+@keyframes example {
+  from {
+    transform: translateY(60px);
+  }
+  to {
+    transform: translateY(-100px);
   }
 }

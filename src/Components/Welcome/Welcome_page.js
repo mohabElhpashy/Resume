@@ -2,6 +2,7 @@ import "./Welcome_page.css";
 import { Component } from "react";
 import img1 from "../../img/diego-ph-5LOhydOtTKU-unsplash.jpg";
 import img2 from "../../img/vincent-guth-uhoILl3HUZM-unsplash.jpg";
+import { Button } from "react-bootstrap";
 
 class Welcome extends Component {
   state = {
@@ -31,6 +32,17 @@ class Welcome extends Component {
           <div>
             <h1>I'M MOHAB</h1>
             <h2>WEB DEVElOPER</h2>
+            <Button
+              style={{
+                width: "150px",
+                height: "50px",
+                letterSpacing: "3px",
+                fontFamily: "URW Chancery L, cursive	",
+              }}
+              variant="light"
+            >
+              DownLOAD CV
+            </Button>
           </div>
         </div>
       </div>
