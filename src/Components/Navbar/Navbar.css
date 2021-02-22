@@ -4,7 +4,7 @@
   text-align: center;
   overflow-y: scroll;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   height: 657px;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -54,7 +54,7 @@ ul li.active a {
 .threelines {
   display: none;
   margin-left: 20px;
-  z-index: 1;
+  z-index: 4;
   position: absolute;
 }
 @media (max-width: 900px) {

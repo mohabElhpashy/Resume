@@ -5,10 +5,33 @@
   background-size: 1088px;
   /* margin-left: 261px; */
 }
-/* @media (max-width: 900px) {
-  .Welcome {
-    width: 444px;
-    background-size: 444px;
+.div_content {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  text-align: center;
+  letter-spacing: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 200px;
+}
+.div_content div {
+  margin-left: 300px;
+}
+.div_content div h1 {
+  /* color: #2193b0; */
+  color: white;
+}
+.div_content div h2 {
+  /* color: #2193b0; */
+  color: white;
+}
+@media (max-width: 900px) {
+  .div_content div {
     margin-left: 0px;
   }
-} */
+}

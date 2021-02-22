@@ -27,8 +27,11 @@ class Welcome extends Component {
           alt="sora"
           src={this.state.img[this.state.index]}
         />
-        <div>
-          <span>Ima</span>
+        <div className="div_content">
+          <div>
+            <h1>I'M MOHAB</h1>
+            <h2>WEB DEVElOPER</h2>
+          </div>
         </div>
       </div>
     );
