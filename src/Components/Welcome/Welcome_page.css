@@ -1,15 +1,14 @@
 .Welcome {
-  width: 1088px;
+  width: 100%;
   height: 650px;
-  background-image: url("../../img/diego-ph-5LOhydOtTKU-unsplash.jpg");
   position: relative;
   background-size: 1088px;
-  margin-left: 261px;
+  /* margin-left: 261px; */
 }
-@media (max-width: 400px) {
+/* @media (max-width: 900px) {
   .Welcome {
-    width: 400px;
-    background-size: 400px;
+    width: 444px;
+    background-size: 444px;
     margin-left: 0px;
   }
-}
+} */

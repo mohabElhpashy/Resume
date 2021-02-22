@@ -19,7 +19,7 @@ class App extends Component {
       this.setState({
         loading_page: false,
       });
-    }, 6000);
+    }, 2000);
   }
   render() {
     return this.state.loading_page ? (
