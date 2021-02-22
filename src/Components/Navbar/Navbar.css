@@ -1,6 +1,6 @@
 .main {
   width: 270px;
-  background-color: white;
+  background: white;
   text-align: center;
   overflow-y: scroll;
   position: fixed;
@@ -8,6 +8,7 @@
   height: 657px;
   padding-top: 60px;
   padding-bottom: 40px;
+  transition: all 0.6s;
 }
 
 h2 {
@@ -51,13 +52,16 @@ ul li.active a {
 }
 
 .threelines {
-  display: block;
+  display: none;
   margin-left: 20px;
   z-index: 1;
   position: absolute;
 }
 @media (max-width: 900px) {
   .main {
-    display: none;
+    width: 0px;
+  }
+  .threelines {
+    display: block;
   }
 }
