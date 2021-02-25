@@ -54,17 +54,17 @@ class Nnavbar extends Component {
             <div className="iconsss">
               <a href="https://www.facebook.com/mohab.elhpashy">
                 {" "}
-                <AiFillFacebook color="black" />
+                <AiFillFacebook size={25} />
               </a>
 
               <a href="mailto:mohab.hafez332@gmail.com">
-                <AiOutlineGoogle color="black" />
+                <AiOutlineGoogle color="gray" size={25} />
               </a>
               <a href="https://github.com/mohabElhpashy">
-                <AiFillGithub color="black" />
+                <AiFillGithub size={25} />
               </a>
               <a href="https://www.linkedin.com/in/mahab-mohamed-07a468167/">
-                <AiFillLinkedin color="black" />
+                <AiFillLinkedin color="gray" size={25} />
               </a>
             </div>
           </div>
