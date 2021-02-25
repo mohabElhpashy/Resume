@@ -2,11 +2,13 @@ import "./Welcome_page.css";
 import { Component } from "react";
 import img1 from "../../img/diego-ph-5LOhydOtTKU-unsplash.jpg";
 import img2 from "../../img/vincent-guth-uhoILl3HUZM-unsplash.jpg";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col, Card } from "react-bootstrap";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { FcSettings, FcSearch, FcLineChart } from "react-icons/fc";
 import { FaRegPaperPlane } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+import html_img from "../../img/html.jpg";
+import ui from "../../img/ui.jpg";
 
 class Welcome extends Component {
   state = {
@@ -38,7 +40,7 @@ class Welcome extends Component {
             <h2>WEB DEVElOPER</h2>
             <Button
               style={{
-                width: "170px",
+                width: "190px",
                 height: "50px",
                 letterSpacing: "3px",
                 fontFamily: "Courier, monospace		",
@@ -113,6 +115,39 @@ class Welcome extends Component {
                   </p>
                 </div>
               </div>
+            </Col>
+          </Row>
+          <hr />
+          <h2 className="h">VARIOUS SPECIALTIES</h2>
+          <Row>
+            <Col>
+              <Card className="main_div" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={html_img} />
+                <Card.Body>
+                  <Card.Title>WEB DEVELOPMENT</Card.Title>
+                  <Card.Text>
+                    Working on the project through HTML5, Css3 , Json ,
+                    Javascript , jQuery , React,relying on all interface such as
+                    Windows, Ipad, or the Mac through frameworks as Bootstrap ,
+                    Dealing with Wordpress and languages of the Back-end as
+                    node.js and Database as mongo db .
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="main_div" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src={ui} />
+                <Card.Body>
+                  <Card.Title>WEB DESIGN</Card.Title>
+
+                  <Card.Text>
+                    It's important for me to realize sizes and the equivalent of
+                    colors together, and I design the web face using some
+                    programs such as Xd .
+                  </Card.Text>
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
         </Container>

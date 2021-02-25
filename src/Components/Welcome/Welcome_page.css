@@ -24,7 +24,8 @@
 }
 .div_content div {
   margin-left: 300px;
-  animation: example 10s infinite ease-in-out;
+  animation: example 15s infinite ease-in-out;
+  transition: all 0.6s;
 }
 .div_content div h1 {
   /* color: #2193b0; */
@@ -39,12 +40,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* animation: translatex 6s 1 ease-in-out; */
+}
+.h {
+  margin-left: 200px;
 }
 @media (max-width: 900px) {
   .div_content div {
     margin-left: 0px;
   }
   .main_div {
+    margin-left: 0px;
+  }
+  .h {
     margin-left: 0px;
   }
 }
@@ -54,5 +62,13 @@
   }
   to {
     transform: translateY(-80px);
+  }
+}
+@keyframes translatex {
+  from {
+    transform: translatex(-60px);
+  }
+  to {
+    transform: translatex(80px);
   }
 }
