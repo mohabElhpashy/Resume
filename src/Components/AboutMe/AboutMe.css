@@ -1,0 +1,21 @@
+.about_me_contain span {
+  color: #228896;
+}
+.about_text {
+  content: attr(data-tag);
+  position: absolute;
+  top: 290px;
+  left: -80px;
+  font-family: "Comic Sans MS";
+  transform: rotate(-90deg);
+  font-style: bold;
+  color: #228896;
+}
+
+@media (max-width: 900px) {
+  .about_text {
+    position: absolute;
+    top: 220px;
+    left: -75px;
+  }
+}

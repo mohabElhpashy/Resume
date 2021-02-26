@@ -34,7 +34,7 @@ class Nnavbar extends Component {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="About">About</a>
+                <a href="/Aboutme">About</a>
               </li>
               <li>
                 <a href="Portfolio">Portfolio</a>

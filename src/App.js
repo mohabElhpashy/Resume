@@ -5,6 +5,7 @@ import Welcome from "../src/Components/Welcome/Welcome_page";
 import Nav from "../src/Components/Navbar/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HashLoader from "react-spinners/HashLoader";
+import Aboutme from "../src/Components/AboutMe/AboutMe";
 
 class App extends Component {
   constructor(props) {
@@ -31,6 +32,8 @@ class App extends Component {
         <Nav />
         <Switch>
           <Route path="/" exact component={Welcome} />
+          <Route path="/Aboutme" exact component={Aboutme} />
+          Aboutme
         </Switch>
       </Router>
     );
