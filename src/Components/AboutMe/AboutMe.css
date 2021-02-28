@@ -1,21 +1,65 @@
-.about_me_contain span {
-  color: #228896;
+.about_me_contain {
+  width: 100%;
 }
 .about_text {
   content: attr(data-tag);
   position: absolute;
-  top: 290px;
-  left: -80px;
+  top: 268px;
+  left: -93px;
   font-family: "Comic Sans MS";
   transform: rotate(-90deg);
   font-style: bold;
   color: #228896;
 }
-
+.main_divv {
+  margin-left: 130px;
+}
+.line {
+  position: relative;
+  margin: 30px auto;
+  width: 70%;
+  height: 1px;
+  background-color: #ccc;
+}
+.line:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  background-color: #228896;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 @media (max-width: 900px) {
   .about_text {
-    position: absolute;
-    top: 220px;
-    left: -75px;
+    /* position: absolute; */
+    top: 310px;
+    left: -83px;
   }
+  .main_divv {
+    margin-left: 0px;
+  }
+
+  .about_me_contain {
+    text-align: center;
+  }
+}
+.fh5co-heading {
+  font-size: 2em;
+  margin-left: 150px;
+  font-family: Andale Mono, monospace;
+}
+.fh5coo-heading {
+  font-size: 1.75rem;
+  font-family: Comic Sans MS;
+  text-align: center;
 }

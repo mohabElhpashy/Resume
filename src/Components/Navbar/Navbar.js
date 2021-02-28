@@ -34,7 +34,7 @@ class Nnavbar extends Component {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/Aboutme">About</a>
+                <a href="/Aboutme">About me</a>
               </li>
               <li>
                 <a href="Portfolio">Portfolio</a>
@@ -47,7 +47,7 @@ class Nnavbar extends Component {
               </li>
             </ul>
           </div>
-          <div class="fh5co-footer">
+          <div className="fh5co-footer">
             <p>
               <small>© 2020 Mohab. All Rights Reserved</small>
             </p>

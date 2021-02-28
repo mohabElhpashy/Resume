@@ -1,6 +1,6 @@
 import "./Welcome_page.css";
 import { Component } from "react";
-import img1 from "../../img/diego-ph-5LOhydOtTKU-unsplash.jpg";
+import img1 from "../../img/steal.jpg";
 import img2 from "../../img/vincent-guth-uhoILl3HUZM-unsplash.jpg";
 import { Button, Container, Row, Col, Card } from "react-bootstrap";
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -9,6 +9,8 @@ import { FaRegPaperPlane } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import html_img from "../../img/html.jpg";
 import ui from "../../img/ui.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 class Welcome extends Component {
   state = {
@@ -16,6 +18,8 @@ class Welcome extends Component {
     index: 0,
   };
   componentDidMount() {
+    Aos.init({ duration: 2000 });
+
     if (this.state.index === 1) this.setState({ index: 0 });
     setInterval(() => {
       this.setState({
@@ -55,7 +59,7 @@ class Welcome extends Component {
         <Container>
           <Row>
             <Col>
-              <div className="main_div">
+              <div className="main_div" data-aos="fade-right">
                 <div className="fh5co-icon">
                   <FcSettings size={80} enableBackground="gray" color="red" />
                 </div>
@@ -69,7 +73,7 @@ class Welcome extends Component {
               </div>
             </Col>
             <Col>
-              <div className="main_div">
+              <div className="main_div" data-aos="fade-left">
                 <div class="fh5co-icon">
                   <FcSearch size={80} />
                 </div>
@@ -87,7 +91,7 @@ class Welcome extends Component {
 
           <Row>
             <Col>
-              <div className="main_div">
+              <div className="main_div" data-aos="fade-right">
                 <div class="fh5co-icon">
                   <FaRegPaperPlane size={50} />
                 </div>
@@ -102,7 +106,7 @@ class Welcome extends Component {
               </div>
             </Col>
             <Col>
-              <div className="main_div">
+              <div className="main_div" data-aos="fade-left">
                 <div class="fh5co-icon">
                   <FcLineChart size={80} />
                 </div>
@@ -121,7 +125,11 @@ class Welcome extends Component {
           <h2 className="h">VARIOUS SPECIALTIES</h2>
           <Row>
             <Col>
-              <Card className="main_div" style={{ width: "18rem" }}>
+              <Card
+                className="main_div"
+                style={{ width: "18rem" }}
+                data-aos="fade-up"
+              >
                 <Card.Img variant="top" src={html_img} />
                 <Card.Body>
                   <Card.Title>WEB DEVELOPMENT</Card.Title>
@@ -136,7 +144,11 @@ class Welcome extends Component {
               </Card>
             </Col>
             <Col>
-              <Card className="main_div" style={{ width: "18rem" }}>
+              <Card
+                className="main_div"
+                style={{ width: "18rem" }}
+                data-aos="fade-down"
+              >
                 <Card.Img variant="top" src={ui} />
                 <Card.Body>
                   <Card.Title>WEB DESIGN</Card.Title>
