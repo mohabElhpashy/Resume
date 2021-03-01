@@ -39,6 +39,15 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.sorrra {
+  width: 400px;
+  height: 401px;
+}
+.fh5co-heading {
+  font-size: 2em;
+  margin-left: 190px;
+  font-family: Andale Mono, monospace;
+}
 @media (max-width: 900px) {
   .about_text {
     /* position: absolute; */
@@ -52,12 +61,18 @@
   .about_me_contain {
     text-align: center;
   }
+  .fh5co-heading {
+    letter-spacing: 10px;
+    font-size: 1;
+    margin-left: 100px;
+  }
+  .sorrra {
+    margin-left: 0px;
+    width: 400px;
+    height: 401px;
+  }
 }
-.fh5co-heading {
-  font-size: 2em;
-  margin-left: 150px;
-  font-family: Andale Mono, monospace;
-}
+
 .fh5coo-heading {
   font-size: 1.75rem;
   font-family: Comic Sans MS;

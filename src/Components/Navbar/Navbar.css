@@ -48,9 +48,13 @@ ul li a {
 .active {
   font-weight: bold;
 }
-ul li.active a {
+/* ul li.active a {
   text-decoration: underline;
   text-decoration-color: #337ab7;
+} */
+.main-nav-active {
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .threelines {

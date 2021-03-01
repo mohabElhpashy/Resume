@@ -25,9 +25,9 @@ class AboutMe extends Component {
           <Col>
             <div className="main_divv">
               <img
+                className="sorrra"
                 data-aos="fade-right"
                 alt="sora"
-                style={{ width: "468px", height: "401px" }}
                 src={about_img}
               />
             </div>

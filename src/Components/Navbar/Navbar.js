@@ -8,6 +8,7 @@ import {
   AiFillFacebook,
   AiOutlineGoogle,
 } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 class Nnavbar extends Component {
   state = {
@@ -31,19 +32,29 @@ class Nnavbar extends Component {
           <div className="links">
             <ul>
               <li className="active">
-                <a href="/">Home</a>
+                <NavLink exact activeClassName="main-nav-active" to="/">
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a href="/Aboutme">About me</a>
+                <NavLink exact to="/Aboutme" activeClassName="main-nav-active">
+                  About me
+                </NavLink>
               </li>
               <li>
-                <a href="Portfolio">Portfolio</a>
+                <NavLink exact activeClassName="main-nav-active" to="Portfolio">
+                  Portfolio
+                </NavLink>
               </li>
               <li>
-                <a href="SKILLS">SKILLS</a>
+                <NavLink exact activeClassName="main-nav-active" to="SKILLS">
+                  SKILLS
+                </NavLink>
               </li>
               <li>
-                <a href="CONTACT">CONTACT</a>
+                <NavLink exact activeClassName="main-nav-active" to="CONTACT">
+                  CONTACT
+                </NavLink>
               </li>
             </ul>
           </div>
