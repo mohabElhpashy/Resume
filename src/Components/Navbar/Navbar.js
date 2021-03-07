@@ -24,6 +24,11 @@ class Nnavbar extends Component {
       this.setState({ flag: false });
     }
   };
+  check_and_hide = () => {
+    if (window.innerWidth <= 900) {
+      document.getElementById("MAIN").style.width = "0px";
+    }
+  };
   render() {
     return (
       <div>
@@ -32,23 +37,43 @@ class Nnavbar extends Component {
           <div className="links">
             <ul>
               <li className="active">
-                <NavLink exact activeClassName="main-nav-active" to="/">
+                <NavLink
+                  onClick={this.check_and_hide}
+                  exact
+                  activeClassName="main-nav-active"
+                  to="/"
+                >
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink exact to="/Aboutme" activeClassName="main-nav-active">
+                <NavLink
+                  onClick={this.check_and_hide}
+                  exact
+                  to="/Aboutme"
+                  activeClassName="main-nav-active"
+                >
                   About me
                 </NavLink>
               </li>
               <li>
-                <NavLink exact activeClassName="main-nav-active" to="Portfolio">
+                <NavLink
+                  onClick={this.check_and_hide}
+                  exact
+                  activeClassName="main-nav-active"
+                  to="Portfolio"
+                >
                   Portfolio
                 </NavLink>
               </li>
 
               <li>
-                <NavLink exact activeClassName="main-nav-active" to="CONTACT">
+                <NavLink
+                  onClick={this.check_and_hide}
+                  exact
+                  activeClassName="main-nav-active"
+                  to="CONTACT"
+                >
                   CONTACT
                 </NavLink>
               </li>
