@@ -47,7 +47,7 @@ class Nnavbar extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink exact activeClassName="main-nav-active" to="SKILLS">
+                <NavLink exact activeClassName="main-nav-active" to="/SKILLS">
                   SKILLS
                 </NavLink>
               </li>

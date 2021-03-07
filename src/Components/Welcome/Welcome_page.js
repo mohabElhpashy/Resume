@@ -1,6 +1,6 @@
 import "./Welcome_page.css";
 import { Component } from "react";
-import img1 from "../../img/steal.jpg";
+import img1 from "../../img/diego-ph-5LOhydOtTKU-unsplash.jpg";
 import img2 from "../../img/vincent-guth-uhoILl3HUZM-unsplash.jpg";
 import { Button, Container, Row, Col, Card } from "react-bootstrap";
 import { AiOutlineArrowDown } from "react-icons/ai";

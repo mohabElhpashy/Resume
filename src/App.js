@@ -2,9 +2,11 @@ import "./App.css";
 import { Component } from "react";
 
 import Welcome from "../src/Components/Welcome/Welcome_page";
+import Skills from "../src/Components/Skills/Skills";
+
 import Nav from "../src/Components/Navbar/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HashLoader from "react-spinners/HashLoader";
+import HashLoader from "react-spinners/GridLoader";
 import Aboutme from "../src/Components/AboutMe/AboutMe";
 
 class App extends Component {
@@ -25,7 +27,7 @@ class App extends Component {
   render() {
     return this.state.loading_page ? (
       <div className="App">
-        <HashLoader className="load" />
+        <HashLoader color={"#228896"} className="load" />
       </div>
     ) : (
       <Router>
@@ -33,7 +35,7 @@ class App extends Component {
         <Switch>
           <Route path="/" exact component={Welcome} />
           <Route path="/Aboutme" exact component={Aboutme} />
-          Aboutme
+          <Route path="/Skills" exact component={Skills} />
         </Switch>
       </Router>
     );

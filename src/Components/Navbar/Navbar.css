@@ -54,7 +54,7 @@ ul li a {
 } */
 .main-nav-active {
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .threelines {
