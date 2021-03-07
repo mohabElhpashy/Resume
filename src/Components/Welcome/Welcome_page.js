@@ -56,7 +56,7 @@ class Welcome extends Component {
             </Button>
           </div>
         </div>
-        <Container>
+        <Container className="cont">
           <Row>
             <Col>
               <div className="main_div" data-aos="fade-right">

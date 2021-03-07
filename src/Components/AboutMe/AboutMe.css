@@ -12,7 +12,7 @@
   color: #228896;
 }
 .main_divv {
-  margin-left: 130px;
+  margin-left: 250px;
 }
 .line {
   position: relative;
@@ -56,6 +56,9 @@ div p {
 .skill {
   margin-left: 130px;
   margin-top: 350px;
+}
+.fh5co-headinggg {
+  margin-left: 290px;
 }
 .smartphone {
   position: relative;
@@ -102,13 +105,24 @@ div p {
     left: -83px;
   }
   .main_divv {
-    margin-left: 0px;
-  }
-  .skill {
     margin-left: 0;
-    letter-spacing: 5px;
+  }
+  .fh5co-headinggg {
+    margin-left: 0;
+  }
+  .ppp {
+    text-align: center;
   }
 
+  .skill {
+    margin-left: 0;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  .smartphone {
+    margin-left: 0;
+    text-align: center;
+  }
   .about_me_contain {
     text-align: center;
   }
@@ -121,6 +135,9 @@ div p {
     margin-left: 0px;
     width: 400px;
     height: 401px;
+  }
+  .cool {
+    width: 84%;
   }
 }
 

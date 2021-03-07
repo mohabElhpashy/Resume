@@ -97,6 +97,7 @@ class AboutMe extends Component {
                 I can Help You.
               </h3>
               <p
+                className="ppp"
                 style={{
                   color: "#5b5555",
                   fontfamily: "Comic Sans MS",
@@ -118,7 +119,7 @@ class AboutMe extends Component {
           <Col>
             <div data-aos="fade-right" className="main_divv">
               <Button
-                width="2000px"
+                style={{ width: "160px", height: "50px" }}
                 data-aos="fade-right"
                 onDurationChange={2000}
                 variant="primary"
@@ -133,10 +134,10 @@ class AboutMe extends Component {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="cool">
             <div data-aos="fade-left" className="skill">
-              <h1 className="fh5co-heading" style={{ letterSpacing: "30px" }}>
-                My Skills
+              <h1 className="fh5co-headinggg" style={{ letterSpacing: "30px" }}>
+                Skills
               </h1>
               <div className="line"></div>
             </div>
@@ -154,8 +155,8 @@ class AboutMe extends Component {
               </div>
               <SkillBar
                 level={this.state.prefix[this.state.index]}
-                name=""
-                color="#A52A2A"
+                name="skill:"
+                color="gray"
               />
             </div>
           </Col>
