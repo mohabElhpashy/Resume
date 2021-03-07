@@ -46,11 +46,7 @@ class Nnavbar extends Component {
                   Portfolio
                 </NavLink>
               </li>
-              <li>
-                <NavLink exact activeClassName="main-nav-active" to="/SKILLS">
-                  SKILLS
-                </NavLink>
-              </li>
+
               <li>
                 <NavLink exact activeClassName="main-nav-active" to="CONTACT">
                   CONTACT
