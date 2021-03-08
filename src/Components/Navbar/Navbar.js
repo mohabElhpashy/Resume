@@ -46,16 +46,7 @@ class Nnavbar extends Component {
                   Home
                 </NavLink>
               </li>
-              {/* <li className="active">
-                <NavLink
-                  onClick={this.check_and_hide}
-                  exact
-                  activeClassName="main-nav-active"
-                  to="/skill"
-                >
-                  Home
-                </NavLink>
-              </li> */}
+
               <li>
                 <NavLink
                   onClick={this.check_and_hide}
@@ -66,14 +57,14 @@ class Nnavbar extends Component {
                   About me
                 </NavLink>
               </li>
-              <li>
+              <li className="active">
                 <NavLink
                   onClick={this.check_and_hide}
                   exact
                   activeClassName="main-nav-active"
-                  to="Portfolio"
+                  to="/PORTFOLIO"
                 >
-                  Portfolio
+                  PORTFOLIO
                 </NavLink>
               </li>
 

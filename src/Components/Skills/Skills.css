@@ -1,15 +1,50 @@
-.test {
-  background-color: red;
-  /* box-sizing: border-box; */
+.header_bar {
+  margin-left: 262px;
+  letter-spacing: 8px;
+  color: #000;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+}
+.linee {
+  position: relative;
+  margin-left: -110px;
+  width: 70%;
+  height: 1px;
+  background-color: #ccc;
+}
+.linee:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  background-color: #27d;
+}
+.projects {
+  /* background-color: red; */
+  margin-top: 50px;
   margin-bottom: 10px;
-  padding: 10px;
+  box-shadow: -5px -5px 100px gainsboro;
 }
-/* .tet {
-  margin-left: 200px;
+.projects:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  /* background-color: gray; */
+  transition-duration: 0.5s;
 }
-
-@media (max-width: 600px) {
-  .tet {
-    margin-left: 20px;
+@media (max-width: 900px) {
+  .header_bar {
+    margin-left: 0;
+    text-align: center;
   }
-} */
+  .linee {
+    margin-left: 69px;
+    /* margin-right: 10px; */
+
+    text-align: center;
+  }
+}
