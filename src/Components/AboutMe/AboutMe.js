@@ -153,10 +153,15 @@ class AboutMe extends Component {
                   style={{ width: "316px", backgroundSize: "360px" }}
                 />
               </div>
-              <SkillBar
+              {/* <SkillBar
                 level={this.state.prefix[this.state.index]}
                 name="skill:"
-                color="gray"
+                color="#337ab7"
+              /> */}
+              <CountUp
+                className="countup"
+                prefix="%"
+                end={this.state.prefix[this.state.index]}
               />
             </div>
           </Col>

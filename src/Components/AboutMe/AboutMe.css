@@ -45,7 +45,7 @@
 }
 .fh5co-heading {
   font-size: 2em;
-  margin-left: 190px;
+  margin-left: 139px;
   font-family: Andale Mono, monospace;
 }
 div p {
@@ -58,13 +58,13 @@ div p {
   margin-top: 350px;
 }
 .fh5co-headinggg {
-  margin-left: 290px;
+  margin-left: 368px;
 }
 .smartphone {
   position: relative;
   width: 360px;
   height: 640px;
-  margin: auto;
+  margin-left: 441px;
   border: 16px black solid;
   border-top-width: 60px;
   border-bottom-width: 60px;
@@ -72,6 +72,14 @@ div p {
 }
 .content {
   text-align: center;
+  margin: 8px auto;
+}
+.countup {
+  font-weight: bold;
+  margin-left: 123px;
+  font-size: 32px;
+
+  color: #228896;
 }
 .smartphone:before {
   content: "";
@@ -129,7 +137,7 @@ div p {
   .fh5co-heading {
     letter-spacing: 10px;
     font-size: 1;
-    margin-left: 100px;
+    margin-left: 90px;
   }
   .sorrra {
     margin-left: 0px;
