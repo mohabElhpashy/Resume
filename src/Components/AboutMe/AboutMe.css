@@ -121,6 +121,9 @@ div p {
   .ppp {
     text-align: center;
   }
+  .countup {
+    margin-left: 0;
+  }
 
   .skill {
     margin-left: 0;
