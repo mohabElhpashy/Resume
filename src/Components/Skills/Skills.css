@@ -8,6 +8,7 @@
 .linee {
   position: relative;
   margin-left: -110px;
+  margin-bottom: 70px;
   width: 70%;
   height: 1px;
   background-color: #ccc;

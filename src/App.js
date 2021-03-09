@@ -8,6 +8,7 @@ import Nav from "../src/Components/Navbar/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HashLoader from "react-spinners/GridLoader";
 import Aboutme from "../src/Components/AboutMe/AboutMe";
+import CONTACT from "../src/Components/Contact/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,8 @@ class App extends Component {
           <Route path="/" exact component={Welcome} />
           <Route path="/Aboutme" exact component={Aboutme} />
           <Route path="/PORTFOLIO" exact component={Skills} />
+          <Route path="/CONTACT" exact component={CONTACT} />
+          CONTACT
         </Switch>
       </Router>
     );

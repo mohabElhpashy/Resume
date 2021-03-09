@@ -73,7 +73,7 @@ class Nnavbar extends Component {
                   onClick={this.check_and_hide}
                   exact
                   activeClassName="main-nav-active"
-                  to="CONTACT"
+                  to="/CONTACT"
                 >
                   CONTACT
                 </NavLink>
