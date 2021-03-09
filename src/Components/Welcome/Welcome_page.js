@@ -39,7 +39,7 @@ class Welcome extends Component {
           src={this.state.img[this.state.index]}
         />
         <div className="div_content">
-          <div>
+          {/* <div>
             <h1>I'M MOHAB</h1>
             <h2>WEB DEVElOPER</h2>
             <Button
@@ -54,7 +54,7 @@ class Welcome extends Component {
               DownLOAD CV
               <AiOutlineArrowDown />
             </Button>
-          </div>
+          </div> */}
         </div>
         <Container className="cont">
           <Row>
