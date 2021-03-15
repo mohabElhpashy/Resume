@@ -48,6 +48,7 @@
 .cont {
   width: 78%;
 }
+
 @media (max-width: 900px) {
   .div_content div {
     margin-left: 0px;

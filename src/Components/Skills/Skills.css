@@ -25,6 +25,31 @@
   -webkit-transform: translateX(-50%);
   background-color: #27d;
 }
+
+.f_box {
+  background-color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.f_box div {
+  border: 1px #ccc solid;
+}
+.f_box1 {
+  flex: 1;
+}
+.f_box2 {
+  flex: 1;
+}
+.f_box3 {
+  flex: 1;
+}
+/* .f_box4 {
+  flex: 1;
+} */
+
 .projects {
   /* background-color: red; */
   margin-top: 50px;

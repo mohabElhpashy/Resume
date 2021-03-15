@@ -80,9 +80,11 @@ ul li a {
 }
 @media (max-width: 900px) {
   .main {
-    width: 0px;
+    width: 0;
+    height: 690px;
   }
   .threelines {
     display: block;
+    position: fixed;
   }
 }
