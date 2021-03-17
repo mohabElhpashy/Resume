@@ -20,7 +20,7 @@ class Nnavbar extends Component {
       this.setState({ flag: true });
     }
     if (this.state.flag) {
-      document.getElementById("MAIN").style.width = "537px";
+      document.getElementById("MAIN").style.width = "270px";
       this.setState({ flag: false });
     }
   };
