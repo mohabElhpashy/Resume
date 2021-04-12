@@ -47,8 +47,8 @@
   flex: 1;
 }
 /* .f_box4 {
-  flex: 1;
-} */
+      flex: 1;
+    } */
 
 .projects {
   /* background-color: red; */
@@ -73,4 +73,47 @@
 
     text-align: center;
   }
+}
+.warpper {
+  display: grid;
+}
+
+.main_nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.main_nav ul li {
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: center;
+}
+
+.contentt {
+  display: grid;
+  background-color: #ccc;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: 100px 50px;
+  width: 70%;
+  margin: auto;
+  align-items: stretch;
+}
+.contentt div {
+  background-color: rgb(238, 238, 238);
+}
+
+.one {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.two {
+  grid-row: 1/3;
+}
+.four {
+  grid-column: 2/4;
 }

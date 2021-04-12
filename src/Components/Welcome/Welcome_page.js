@@ -32,30 +32,13 @@ class Welcome extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="didi">
         <img
           className="Welcome"
           alt="sora"
           src={this.state.img[this.state.index]}
         />
-        <div className="div_content">
-          {/* <div>
-            <h1>I'M MOHAB</h1>
-            <h2>WEB DEVElOPER</h2>
-            <Button
-              style={{
-                width: "190px",
-                height: "50px",
-                letterSpacing: "3px",
-                fontFamily: "Courier, monospace		",
-              }}
-              variant="light"
-            >
-              DownLOAD CV
-              <AiOutlineArrowDown />
-            </Button>
-          </div> */}
-        </div>
+
         <Container className="cont">
           <Row>
             <Col>
