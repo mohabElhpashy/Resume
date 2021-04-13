@@ -32,7 +32,7 @@ class App extends Component {
       </div>
     ) : (
       <Router>
-        {/* <Nav /> */}
+        <Nav />
         <Switch>
           <Route path="/" exact component={Welcome} />
           <Route path="/Aboutme" exact component={Aboutme} />
