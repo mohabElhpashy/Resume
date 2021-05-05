@@ -8,6 +8,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Capture from "../../img/Capture.jpg";
 import Musiq from "../../img/musi.jpg";
+import One from "../../Images/1.PNG";
+import Two from "../../Images/2.PNG";
+import Three from "../../Images/3.PNG";
+import Four from "../../Images/4.PNG";
+
+
 
 // import { SkillBar } from "react-skills";
 
@@ -50,6 +56,53 @@ class Skills extends Component {
             </div>
           </Col>
         </Row>
+        <Row className="header_bar">
+          
+          <Col data-aos="fade-right" lg={6} md={6} sm={6} xs={12}>
+            <div className="projects">
+              <img
+                onClick={this.goto1}
+                style={{ width: "401.49px" }}
+                src={One}
+                alt="project"
+              />
+            </div>
+          </Col>
+          <Col data-aos="fade-left" lg={6} md={6} sm={6} xs={12}>
+            <div className="projects">
+              <img
+                onClick={this.goto2}
+                style={{ width: "401.49px" }}
+                src={Two}
+                alt="project"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="header_bar">
+         
+          <Col data-aos="fade-right" lg={6} md={6} sm={6} xs={12}>
+            <div className="projects">
+              <img
+                onClick={this.goto1}
+                style={{ width: "401.49px" }}
+                src={Three}
+                alt="project"
+              />
+            </div>
+          </Col>
+          <Col data-aos="fade-left" lg={6} md={6} sm={6} xs={12}>
+            <div className="projects">
+              <img
+                onClick={this.goto2}
+                style={{ width: "401.49px" }}
+                src={Four}
+                alt="project"
+              />
+            </div>
+          </Col>
+        </Row>
+
       </Container>
     )}}
 export default Skills;
