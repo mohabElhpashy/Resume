@@ -27,6 +27,18 @@ class Skills extends Component {
   goto2 = () => {
     window.location = "https://www.musiqme.com/";
   };
+  goto3 = () => {
+    window.location = "https://elnoran.herokuapp.com/";
+  };
+  goto4 = () => {
+    window.location = "https://freeelancee.herokuapp.com/Home";
+  };
+  goto5 = () => {
+    window.location = "https://reactredux-shoppingcart.herokuapp.com/";
+  };
+  goto6 = () => {
+    window.location = "https://608a5aa24a1658bf7957ce86--blissful-murdock-fc3991.netlify.app/";
+  };
   render() {
     return (
       <Container>
@@ -61,7 +73,7 @@ class Skills extends Component {
           <Col data-aos="fade-right" lg={6} md={6} sm={6} xs={12}>
             <div className="projects">
               <img
-                onClick={this.goto1}
+                onClick={this.goto3}
                 style={{ width: "401.49px" }}
                 src={One}
                 alt="project"
@@ -71,7 +83,7 @@ class Skills extends Component {
           <Col data-aos="fade-left" lg={6} md={6} sm={6} xs={12}>
             <div className="projects">
               <img
-                onClick={this.goto2}
+                onClick={this.goto4}
                 style={{ width: "401.49px" }}
                 src={Two}
                 alt="project"
@@ -84,7 +96,7 @@ class Skills extends Component {
           <Col data-aos="fade-right" lg={6} md={6} sm={6} xs={12}>
             <div className="projects">
               <img
-                onClick={this.goto1}
+                onClick={this.goto5}
                 style={{ width: "401.49px" }}
                 src={Three}
                 alt="project"
@@ -94,7 +106,7 @@ class Skills extends Component {
           <Col data-aos="fade-left" lg={6} md={6} sm={6} xs={12}>
             <div className="projects">
               <img
-                onClick={this.goto2}
+                onClick={this.goto6}
                 style={{ width: "401.49px" }}
                 src={Four}
                 alt="project"
